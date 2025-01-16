@@ -1,0 +1,39 @@
+
+
+
+.category-selection{
+  font-family: 'MinSans-Regular';
+  height: 640px;
+  width: 360px;
+  background-color: #BED9EE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+h1{
+  text-align: center;
+  padding: 20px;
+  font-size: 1.8rem;
+  
+}
+
+.category-selection > button{
+  font-family: 'MinSans-Regular';
+  background-color: #80B6E2;
+  color: #fff;
+  width: 85%;
+  padding: 20px;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: 2px 2px 0 0 rgba(0,0,0,0.4);
+}
+
+.category-selection > button:hover{
+  background-color: #318CD8;
+}
