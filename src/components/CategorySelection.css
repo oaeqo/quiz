@@ -31,7 +31,8 @@ h1{
   border-radius: 30px;
   font-size: 1.1rem;
   cursor: pointer;
-  box-shadow: 2px 2px 0 0 rgba(0,0,0,0.4);
+  border: 1px solid #78a6cc;
+  /* box-shadow: 2px 2px 0 0 rgba(0,0,0,0.4); */
 }
 
 .category-selection > button:hover{
